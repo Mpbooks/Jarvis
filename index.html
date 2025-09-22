@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>JARVIS IA</title>
     <style>
-      /* Animação de entrada do texto (letras girando) */
       @keyframes animate {
         0% {
           opacity: 0;
@@ -22,7 +21,6 @@
         }
       }
     
-      /* Animação de desaparecimento da seção após 2s */
       @keyframes hideSection {
         0% {
           opacity: 1;
@@ -37,15 +35,13 @@
           visibility: hidden;
         }
       }
-    
-      /* Animação para mostrar o resto da página após 3s */
+
       @keyframes showContainer {
         to {
           opacity: 1;
         }
       }
     
-      /* Estilos da primeira seção com vídeo */
       .section {
         position: absolute;
         z-index: 1000;
@@ -77,7 +73,6 @@
         animation: animate 1s linear forwards;
       }
     
-      /* Delay individual por letra para efeito cascata */
       .h1 span:nth-child(1) { animation-delay: 0.1s; }
       .h1 span:nth-child(2) { animation-delay: 0.2s; }
       .h1 span:nth-child(3) { animation-delay: 0.3s; }
@@ -90,7 +85,6 @@
       .h1 span:nth-child(10) { animation-delay: 1.0s; }
       .h1 span:nth-child(11) { animation-delay: 1.1s; }
     
-      /* Resto da página aparece após 3s */
       .container {
         opacity: 0;
         animation: showContainer 1s ease forwards;
@@ -169,3 +163,4 @@
   </script>
 </body>
 </html>
+
