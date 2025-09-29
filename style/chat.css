@@ -12,6 +12,7 @@ body{
     display: flex;
     background-color: rgb(39, 39, 39);
     overflow-y: hidden;
+     overflow-x: hidden;
 }
 
 .container{
@@ -21,6 +22,7 @@ body{
     align-items: center;
     flex-direction: column;
     overflow-y: hidden;
+     overflow-x: hidden;
 }
 
 .cabeca{
@@ -219,5 +221,6 @@ span .timer{
         top: 10%;
         
      }
+
 
 }
